@@ -1,14 +1,15 @@
-# 🚀 Auth0 Advanced AI Suite
+# 🚀 Premium Hackathon Project
 
-Integrated solutions for Privacy-Aware RAG, Token Vaults, and Full-Stack Identity Context.
+## 🛠️ Technical Skills Implemented
+* Auth0 FGA
+* Token Vaults
+* Identity Context
 
-## 🛠️ Built With
-* GitHub Copilot
-* Modern Web Technologies
-* AI-Powered Workflows
+## ⚙️ Technical Proof
+Implemented a full-stack assistant that preserves user context via OIDC tokens to secure First-Party and Third-Party API calls.
 
 ## 🚀 Deployment
-This project is live via HTMLPreview!
+Live Preview available via HTMLPreview!
 
 ---
-Built for **MLH GenAI Hack Week 2025** 🏆
+🏆 Built for **MLH GenAI Hack Week 2025**
