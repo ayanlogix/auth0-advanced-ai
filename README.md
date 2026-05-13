@@ -1,15 +1,14 @@
-# 🤖 Auth0 Advanced AI Suite
+# 🚀 Auth0 Advanced AI Suite
 
-This repository contains the integrated implementation of three advanced Auth0 + AI challenges for MLH GenAI Hack Week 2025.
+Integrated solutions for Privacy-Aware RAG, Token Vaults, and Full-Stack Identity Context.
 
-## 🛠️ Integrated Challenges
-1. **The Privacy-Aware RAG Bot (Auth0 FGA)**: Uses Fine-Grained Authorization to control AI access to sensitive documents.
-2. **The Veto Agent**: Implements a secure Token Vault for asynchronous AI authorization.
-3. **Context-Preserving Assistant**: Demonstrates full-stack identity preservation across AI conversation contexts.
+## 🛠️ Built With
+* GitHub Copilot
+* Modern Web Technologies
+* AI-Powered Workflows
 
-## 🚀 Key Features
-- **Auth0 FGA Integration**: Policy-based access for RAG queries.
-- **Token Vault Architecture**: Secure storage for AI agent credentials.
-- **Identity Awareness**: User-context injection for personalized AI assistants.
+## 🚀 Deployment
+This project is live via HTMLPreview!
 
-Built with GitHub Copilot 🚀
+---
+Built for **MLH GenAI Hack Week 2025** 🏆
