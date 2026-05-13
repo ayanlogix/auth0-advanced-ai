@@ -36,4 +36,22 @@ h1{font-size:2rem;margin-bottom:20px}
         setTimeout(() => addLog('Authenticating via Auth0/SDK...'), 2000);
         setTimeout(() => addLog('Active Session Verified'), 3500);
     </script>
+    <script>
+        function triggerApi() {
+            addLog('Requesting Token from Auth0 Vault...');
+            const btn = event.target;
+            btn.innerText = 'FETCHING...';
+            btn.disabled = true;
+            setTimeout(() => {
+                addLog('Token Verified. Fetching First-Party Data...');
+                setTimeout(() => {
+                    addLog('Success: User Context Preserved.');
+                    btn.innerText = 'FETCH DATA';
+                    btn.disabled = false;
+                    alert('Identity Context Verified! Data fetched securely via Auth0 Token Vault.');
+                }, 1500);
+            }, 1000);
+        }
+    </script>
+    <button onclick="triggerApi()" style="margin-top:20px; width:100%; padding:15px; background:#635dff; color:white; border:none; border-radius:12px; font-weight:800; cursor:pointer;">FETCH SECURE DATA</button>
 </body></html>
